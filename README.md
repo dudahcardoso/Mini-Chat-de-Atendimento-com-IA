@@ -40,6 +40,9 @@ Você pode editar as respostas do bot facilmente no arquivo `script.js` para ada
 ## 📜 Licença
 Este projeto está sob a licença MIT. Sinta-se livre para usar, modificar e compartilhar!
 
+## 🎥 Vídeo aula
+https://youtu.be/cED7fGJcg-M
+
 ---
 
 Feito com carinho por Maria Eduarda 💙
