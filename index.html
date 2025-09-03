@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mini ChatBot de Atendimento com IA</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="chat">
-        <h2>Assistente Virtual</h2>
-        <div id="mensagens">
-            <input type="text" id="pergunta" placeholder="Digite sua pergunta...">
-            <button onclick="responder()">Enviar</button>
-        </div>
+      <h2>Assistente Virtual</h2>
+      <div id="mensagens">
+        <!-- As mensagens aparecerão aqui -->
+      </div>
+      <div class="input-area">
+        <input type="text" id="pergunta" placeholder="Digite sua pergunta..." />
+        <button onclick="responder()">Enviar</button>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
